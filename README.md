@@ -1,4 +1,4 @@
-# Crop Yield Prediction Using Machine Learning 🌱
+# 🌾 Crop Yield Prediction Using Machine Learning
 
 ## 📌 Problem Statement
 Accurate crop yield prediction is crucial for agricultural planning, food security, and economic stability. Traditional estimation methods often fail to account for complex relationships between climatic conditions, agricultural inputs, and crop types.  
@@ -18,8 +18,8 @@ To develop a predictive model that estimates crop yield based on factors such as
 ---
 
 ## 📊 Dataset
-- **Source:** Public agricultural dataset
-- **Records:** ~19,500 rows
+- **Source:** Public agricultural dataset  
+- **Records:** ~19,500 rows  
 - **Features:**  
   `Crop`, `Crop_Year`, `Season`, `State`, `Area`, `Production`,  
   `Annual_Rainfall`, `Fertilizer`, `Pesticide`
@@ -40,7 +40,7 @@ To develop a predictive model that estimates crop yield based on factors such as
    - Train-test split
 
 3. **Model Selection**
-   - Baseline: Linear Regression
+   - Baseline Model: Linear Regression
    - Final Model: Random Forest Regressor
 
 4. **Model Training**
@@ -60,9 +60,9 @@ To develop a predictive model that estimates crop yield based on factors such as
 | RMSE | ~0.183 |
 | R² Score | ~0.97 |
 
-- The high R² score indicates strong predictive performance.
+- High R² score indicates strong predictive performance.
 - Log transformation significantly improved model stability.
-- Feature importance analysis shows crop type and production as major contributors.
+- Feature importance analysis highlights crop type and production as major contributors.
 
 ---
 
@@ -71,7 +71,7 @@ To develop a predictive model that estimates crop yield based on factors such as
 - Feature importance plot
 - Actual vs Predicted yield scatter plot
 
-These plots validate the effectiveness and reliability of the model.
+These visualizations validate the effectiveness and reliability of the model.
 
 ---
 
@@ -91,19 +91,20 @@ These plots validate the effectiveness and reliability of the model.
 
 ---
 
-## 📂 Code
-The complete implementation is available in this repository:
-- `Crop_Yield_Prediction_Using_Machine_Learning.ipynb`
+## 📂 Code & Notebook
+- **Jupyter Notebook:** `Crop_Yield_Prediction_Using_Machine_Learning.ipynb`
+- **Google Colab:**  
+  👉 https://colab.research.google.com/drive/14nimkNMJJyMupgO8-b6O4rxd1QiDZ9gO?usp=sharing
 
 ---
 
 ## 🚀 Future Enhancements
 - Incorporate soil quality and temperature data
-- Time-series forecasting for yearly prediction
-- Deployment using Flask or FastAPI
+- Time-series forecasting for yearly yield prediction
+- Deploy the model using Flask or FastAPI
 
 ---
 
 ## 👩‍💻 Author
 **Trisha Koduri**  
-AI / ML Engineer Aspirant
+AI & Machine Learning Engineer Aspirant
